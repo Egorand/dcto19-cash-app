@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'org.jetbrains.kotlin.kapt'
+
+android {
+  compileSdkVersion 29
+  buildToolsVersion "29.0.2"
+
+  defaultConfig {
+    minSdkVersion 21
+    targetSdkVersion 29
+    versionCode 1
+    versionName "1.0"
+  }
+}
+
+dependencies {
+  api project(':backend:api')
+  api deps.kotlin.stdlib
+  implementation deps.dagger.runtime
+  kapt deps.dagger.compiler
+}

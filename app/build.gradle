@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'org.jetbrains.kotlin.kapt'
+
+android {
+  compileSdkVersion 29
+  buildToolsVersion "29.0.2"
+
+  defaultConfig {
+    applicationId "com.squareup.dcto19.cashapp"
+    minSdkVersion 21
+    targetSdkVersion 29
+    versionCode 1
+    versionName "1.0"
+  }
+}
+
+dependencies {
+  implementation project(':presenters')
+  implementation project(':backend:jvm')
+  implementation deps.kotlin.stdlib
+  implementation deps.rxjava.core
+  implementation deps.rxjava.android
+  implementation deps.dagger.runtime
+  kapt deps.dagger.compiler
+
+  implementation 'androidx.appcompat:appcompat:1.1.0'
+  implementation 'androidx.core:core-ktx:1.1.0'
+  implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}

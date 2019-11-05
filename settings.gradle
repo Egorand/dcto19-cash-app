@@ -1,0 +1,6 @@
+rootProject.name='DCTO19 Cash App'
+
+include ':app'
+include ':backend:api'
+include ':backend:jvm'
+include ':presenters'
