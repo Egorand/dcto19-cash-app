@@ -3,6 +3,7 @@
     package="com.squareup.dcto19.cashapp">
 
   <application
+      android:name=".DCTO19CashApp"
       android:allowBackup="true"
       android:icon="@mipmap/ic_launcher"
       android:label="@string/app_name"
