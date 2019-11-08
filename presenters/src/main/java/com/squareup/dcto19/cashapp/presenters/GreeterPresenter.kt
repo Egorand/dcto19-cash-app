@@ -12,7 +12,6 @@ class GreeterPresenter @Inject constructor(
   private val greeter: Greeter
 ) : ObservableTransformer<GreetingViewEvent, GreetingViewModel> {
   override fun apply(upstream: Observable<GreetingViewEvent>): ObservableSource<GreetingViewModel> {
-    println("yeah")
     return upstream
         .filter { event -> event is GetGreeted }
         .cast(GetGreeted::class.java)
