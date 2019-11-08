@@ -1,0 +1,67 @@
+Gradle start parameters:
+  tasks = [:app:assembleDebug]
+  excluded tasks = []
+  current dir = /Users/egor/Development/square-workspace/DCTO19CashApp
+  project properties args = {}
+  system properties args = {}
+
+Total time for Kotlin tasks: 1.69 s (80.1 % of all tasks time)
+
+Time  |% of Kotlin time|Task                                     
+0.75 s|44.2 %          |:app:compileDebugKotlin                  
+0.44 s|26.2 %          |:app:kaptGenerateStubsDebugKotlin        
+0.25 s|15.1 %          |:backend:jvm:kaptGenerateStubsDebugKotlin
+0.19 s|11.0 %          |:backend:jvm:compileDebugKotlin          
+0.02 s|1.3 %           |:app:kaptDebugKotlin                     
+0.02 s|1.1 %           |:backend:api:compileKotlin               
+0.01 s|0.8 %           |:backend:jvm:kaptDebugKotlin             
+0.00 s|0.3 %           |:presenters:compileDebugKotlin           
+0.00 s|0.1 %           |:backend:api:inspectClassesForKotlinIC   
+
+task ':backend:api:compileKotlin' was skipped: UP-TO-DATE
+
+task ':backend:api:inspectClassesForKotlinIC' was skipped: UP-TO-DATE
+
+task ':presenters:compileDebugKotlin' was skipped: UP-TO-DATE
+
+task ':backend:jvm:kaptGenerateStubsDebugKotlin' finished in 0.25 s
+Execution strategy: daemon
+Compilation log for task ':backend:jvm:kaptGenerateStubsDebugKotlin':
+  Use module detection: true
+  Non-incremental compilation will be performed: inputs' changes are unknown (first or clean build)
+  Clearing output on rebuild
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/backend/jvm/build/tmp/kapt3/incrementalData/debug
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/backend/jvm/build/kotlin/kaptGenerateStubsDebugKotlin
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/backend/jvm/build/tmp/kapt3/stubs/debug
+
+task ':backend:jvm:kaptDebugKotlin' was skipped: UP-TO-DATE
+
+task ':backend:jvm:compileDebugKotlin' finished in 0.19 s
+Execution strategy: daemon
+Compilation log for task ':backend:jvm:compileDebugKotlin':
+  Use module detection: true
+  Non-incremental compilation will be performed: inputs' changes are unknown (first or clean build)
+  Clearing output on rebuild
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/backend/jvm/build/tmp/kotlin-classes/debug
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/backend/jvm/build/kotlin/compileDebugKotlin
+
+task ':app:kaptGenerateStubsDebugKotlin' finished in 0.44 s
+Execution strategy: daemon
+Compilation log for task ':app:kaptGenerateStubsDebugKotlin':
+  Use module detection: true
+  Non-incremental compilation will be performed: inputs' changes are unknown (first or clean build)
+  Clearing output on rebuild
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/app/build/tmp/kapt3/incrementalData/debug
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/app/build/kotlin/kaptGenerateStubsDebugKotlin
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/app/build/tmp/kapt3/stubs/debug
+
+task ':app:kaptDebugKotlin' was skipped: UP-TO-DATE
+
+task ':app:compileDebugKotlin' finished in 0.75 s
+Execution strategy: daemon
+Compilation log for task ':app:compileDebugKotlin':
+  Use module detection: true
+  Non-incremental compilation will be performed: inputs' changes are unknown (first or clean build)
+  Clearing output on rebuild
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/app/build/tmp/kotlin-classes/debug
+    Deleting directory /Users/egor/Development/square-workspace/DCTO19CashApp/app/build/kotlin/compileDebugKotlin

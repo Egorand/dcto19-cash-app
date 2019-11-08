@@ -1,0 +1,37 @@
+Gradle start parameters:
+  tasks = [:app:assembleDebug]
+  excluded tasks = []
+  current dir = /Users/egor/Development/square-workspace/DCTO19CashApp
+  project properties args = {}
+  system properties args = {}
+
+Total time for Kotlin tasks: 0.20 s (32.3 % of all tasks time)
+
+Time  |% of Kotlin time|Task                                     
+0.10 s|49.8 %          |:backend:jvm:kaptDebugKotlin             
+0.04 s|17.7 %          |:app:kaptDebugKotlin                     
+0.02 s|8.5 %           |:app:kaptGenerateStubsDebugKotlin        
+0.02 s|8.0 %           |:backend:api:compileKotlin               
+0.01 s|5.7 %           |:backend:jvm:kaptGenerateStubsDebugKotlin
+0.01 s|4.6 %           |:backend:jvm:compileDebugKotlin          
+0.01 s|3.1 %           |:presenters:compileDebugKotlin           
+0.00 s|1.8 %           |:app:compileDebugKotlin                  
+0.00 s|0.8 %           |:backend:api:inspectClassesForKotlinIC   
+
+task ':backend:api:compileKotlin' was skipped: UP-TO-DATE
+
+task ':backend:api:inspectClassesForKotlinIC' was skipped: UP-TO-DATE
+
+task ':presenters:compileDebugKotlin' was skipped: UP-TO-DATE
+
+task ':backend:jvm:kaptGenerateStubsDebugKotlin' was skipped: UP-TO-DATE
+
+task ':backend:jvm:kaptDebugKotlin' was skipped: UP-TO-DATE
+
+task ':backend:jvm:compileDebugKotlin' was skipped: UP-TO-DATE
+
+task ':app:kaptGenerateStubsDebugKotlin' was skipped: UP-TO-DATE
+
+task ':app:kaptDebugKotlin' was skipped: UP-TO-DATE
+
+task ':app:compileDebugKotlin' was skipped: UP-TO-DATE
